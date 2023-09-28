@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Qwitcher+Grypen:wght@400;700&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#header {
+  background-color: grey;
+  font-style: italic;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  padding: 15px;
+  height: 15vh;
+  font-size: 35px;
+}
+
+#header > img {
+  max-width: 10%;
+  height: auto;
+}
+
+#center {
+  display: flex;
+  height: calc(85vh - 30px);
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: lightgray;
+  padding: 50px;
+  width: 15vw;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+#projects > button {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+#tasks > button {
+  background-color: #c0c0c0;
+}
+
+#tasks > button:hover,
+#projects > button:hover {
+  background-color: darkgrey;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  background-color: #c0c0c0;
+  width: 85vw;
+  padding: 50px;
+}
+
+#tasksText {
+  margin-bottom: 15px;
+}
+
+#addProject,
+#addTask {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  text-align: start;
+}
+
+#addTask {
+  margin-top: 15px;
+}
+
+#projectList {
+  padding: 10px;
+}

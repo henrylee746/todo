@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#task > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#task > div > div {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#task > div > div > button {
+  border-radius: 5px;
+  background-color: lightgray;
+  border: 0;
+  padding: 5px;
+}
+
+#task > div > div > button:hover {
+  border: 2px solid grey;
+}
+
+#task > div > div > p {
+  margin-top: 4px;
+}
+
+.projectButton {
+  font-weight: bold;
+  background-color: lightgray;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.projectButton:hover {
+  background-color: grey;
+}
+
+#addT {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  backdrop-filter: blur(15px);
+  padding: 10px;
+}
+
+dialog {
+  border: 0;
+  border-radius: 5px;
+}
+
+form > button,
+form > input {
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  border: 0;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+form > button:hover {
+  background-color: lightcyan;
+}
+
+input:focus {
+  outline: 1px solid grey;
+}
